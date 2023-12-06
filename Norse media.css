@@ -9,7 +9,6 @@ h1 {
     color: white;
     font-size: 70px;
     font-family: "Courier", sans-serif;
-
 }
 
 h2 {
@@ -28,6 +27,7 @@ div {
     padding-top: 1px;
     overflow: hidden;
     line-height: 1;
+    width: 100%;
 
     }
 
@@ -44,6 +44,7 @@ div {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
 
       }
 
@@ -84,6 +85,7 @@ div {
         overflow: hidden;
       }
   
+      .container
 
       
 
