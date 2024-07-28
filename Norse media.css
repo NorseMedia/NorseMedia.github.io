@@ -42,7 +42,9 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
 }
+
 
 .container3 a {
   color: white;
@@ -54,6 +56,7 @@ body {
   background-color: black;
   text-align: center;
   margin-bottom: 0;
+ 
 }
 
 .container2 {
@@ -61,6 +64,7 @@ body {
   text-align: center;
   color: white;
 }
+
 
 .container2 h1 {
   font-size: 50px; 
@@ -72,7 +76,9 @@ body {
   align-items: center;
   flex-direction: column;
   display: flex;
+ 
 }
+
 
 .container4 h2 {
   color: white;
@@ -90,6 +96,7 @@ body {
   margin: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color:#403616;
+  text-align: center;
 }
 
 p {
@@ -125,6 +132,119 @@ button {
   margin: 30px;
   display: flex;
   justify-content: center;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.icon {
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+}
+
+.email-button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.contact-container p{
+  color: black;
+}
+
+.contact-container h1{
+  color: black;
+}
+
+.footer {
+  background-color:black;
+  color: #ecf0f1;
+  padding: 40px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  padding: 20px;
+}
+
+.footer-section h3, .footer-section h4 {
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-section p, .footer-section ul {
+  margin: 0 0 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 0 0 10px;
+}
+
+.footer-section a {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  max-width: 150px;
+}
+
+.social-links a {
+  color: #ecf0f1;
+  font-size: 24px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #7f8c8d;
+  margin-top: 40px;
+}
+
+h4{
+  font-family: "Courier", sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
